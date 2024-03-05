@@ -1,0 +1,18 @@
+git config --global user.name "username of github"
+git config --global user.email "email of github"
+
+
+push commands 
+-------------
+git init
+git add .
+git remote add origin "url of github repo"
+git commit -m "commit label"
+git push -u origin master
+
+second push 
+-----------
+git add .
+git commit -m "second push"
+git push
+
